@@ -4,7 +4,7 @@ Connecting to the cluster
 SSH
 ---
 
-.. _remote access:
+.. _remote-access:
 
 Remote access
 -------------

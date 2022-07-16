@@ -1,22 +1,17 @@
-Welcome to Lumache's documentation!
-===================================
+LAMP Computing
+==============
 
-**Lumache** (/lu'make/) is a Python library for cooks and food lovers
-that creates recipes mixing random ingredients.
-It pulls data from the `Open Food Facts database <https://world.openfoodfacts.org/>`_
-and offers a *simple* and *intuitive* API.
+Learning and Machine Perception team (**LAMP**) computing resources documentation. To know more about the team, check out the `official page <http://www.cvc.uab.es/lamp/>`_.
 
-Check out the :doc:`usage` section for further information, including
-how to :ref:`installation` the project.
+If you're looking how to use the tunnel, check out :ref:`<remote access>`.
 
 .. note::
 
-   This project is under active development.
+   This documentation is under development.
 
 Contents
 --------
 
 .. toctree::
 
-   usage
-   api
+   connecting

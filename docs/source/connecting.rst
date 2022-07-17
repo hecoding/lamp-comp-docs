@@ -6,7 +6,8 @@ The main way of connecting to a cluster or any server is through Secure Shell (`
 SSH
 ---
 A regular ``ssh`` command looks like this
-.. code-block::
+
+.. code-block:: bash
 
    ssh server.cvc.es
 

@@ -18,4 +18,5 @@ Contents
 
    connecting
    data
+   gpu
    recurrent

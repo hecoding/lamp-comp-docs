@@ -3,8 +3,12 @@ Connecting to the cluster
 
 The main way of connecting to a cluster or any server is through Secure Shell (``ssh``), which is executed via a terminal. Basic terminal skills are assumed here. A couple more complex options have been put in place.
 
-SSH
----
+Getting an account
+------------------
+The cluster obeys CVC account system. In most cases, to use the cluster you must obtain an institutional account by contacting the IT department.
+
+Connecting via SSH
+------------------
 A regular ``ssh`` command looks like this
 
 .. code-block:: bash

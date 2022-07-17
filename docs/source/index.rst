@@ -17,3 +17,5 @@ Contents
 .. toctree::
 
    connecting
+   data
+   recurrent

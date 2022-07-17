@@ -17,11 +17,14 @@ A regular ``ssh`` command looks like this
    # Using a certain username and port
    ssh username@server.cvc.es -p 12345
 
-In the CVC, the default port for ``ssh`` connections is ``22345``, so don't forget to specify it in your command.
+.. admonition:: CVC configuration
+
+   In the CVC, the default port for ``ssh`` connections is ``22345``, so don't forget to specify it in your command.
 
 If you're inside the university network, domain names can also be used. If I were to connect to a server I could use the IP (``xxx.xxx.xxx.115``) or its more simple name
 
 .. code-block:: bash
+
    ssh username@cudahpc15 -p 22345
 
 Check the assigned name of a server in xxx.
@@ -48,6 +51,8 @@ and you should be able to work normally.
 
 Guacamole portal
 ----------------
+...
 
 Web Service portal
 ------------------
+...

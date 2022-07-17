@@ -12,20 +12,23 @@ A regular ``ssh`` command looks like this
    ssh server.cvc.es
 
    # Using a certain username
-   ssh youruser@server.cvc.es
+   ssh username@server.cvc.es
 
    # Using a certain username and port
-   ssh youruser@server.cvc.es -p 12345
+   ssh username@server.cvc.es -p 12345
 
 In the CVC, the default port for ``ssh`` connections is ``22345``, so don't forget to specify it in your command.
 
 If you're inside the university network, domain names can also be used. If I were to connect to a server I could use the IP (``xxx.xxx.xxx.115``) or its more simple name
+
 .. code-block:: bash
-   ssh user@cudahpc15 -p 22345
+   ssh username@cudahpc15 -p 22345
+
+Check the assigned name of a server in xxx.
 
 You can avoid retyping your password by `setting up your private keys <https://www.redhat.com/sysadmin/passwordless-ssh>`_.
 
-Even more, with OpenSSH you can make use of your ``~/ssh/config`` file for a more seamless connection. Check it `here <https://linuxize.com/post/using-the-ssh-config-file>`_ or just searching for `ssh config file`.
+Even more, with OpenSSH you can make use of your ``~/ssh/config`` file for a more seamless connection. Check it `here <https://linuxize.com/post/using-the-ssh-config-file>`_ or search online for `ssh config file`.
 
 .. _remote-access:
 
@@ -36,9 +39,10 @@ If you are outside of the university network and want to connect to a cluster or
 But worry not, an SSH tunnel has been set to enable regular work again. First of all, mail Héctor (``hlaria@cvc...``) for an account.
 
 After that, only one more flag is needed in your ``ssh`` command
+
 .. code-block:: bash
 
-   ssh -J tunnel_user@tunnel_ip:22345 user@cudahcp15 -p 22345
+   ssh -J tunnel_user@tunnel_ip:22345 username@cudahcp15 -p 22345
 
 and you should be able to work normally.
 

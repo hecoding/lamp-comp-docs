@@ -29,7 +29,7 @@ A regular ``ssh`` command looks like this
 
    In the CVC, the default port for ``ssh`` connections is ``22345``, so don't forget to specify it in your command.
 
-If you're inside the university network, domain names can also be used. If I were to connect to a server I could use the IP (``xxx.xxx.xxx.115``) or its more simple name
+If you're inside the university network, domain names can also be used. I.e., if I were to connect to a server I could use the IP address ``xxx.xxx.xxx.115`` or simply:
 
 .. code-block:: bash
 

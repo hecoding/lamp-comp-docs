@@ -7,8 +7,11 @@
 
    * * :ref:`SSH <ssh>`
      * Standard way of connecting via command line.
+     * Connections only from University, proxy or VPN networks.
 
-     * Connections only from University, tunnel or VPN networks.
+   * * :ref:`Tunnel <ssh-tunnel>`
+     * Proxy jump server to make ssh (see above) available from outside again.
+     * Whole internet.
 
    * * :ref:`VDI <guacamole>`
      * "Virtual desktop interface", (Guacamole), from there you can

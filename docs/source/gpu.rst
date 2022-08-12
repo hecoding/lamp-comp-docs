@@ -1,6 +1,8 @@
 GPU computing
 =============
 
+.. _hardware-specs:
+
 Resources
 ---------
 

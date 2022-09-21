@@ -9,7 +9,11 @@ If you're looking how to use the tunnel, check out :ref:`ssh-tunnel`.
 
    This documentation is under development.
 
-A lot of inspiration has been taken from great cluster documentation out there, e.g., the beloved `Aalto Scicomp <https://scicomp.aalto.fi/triton>`_.
+A lot of inspiration has been taken from great cluster documentation out 
+there, e.g., `Princeton Research 
+Computing 
+<https://researchcomputing.princeton.edu/systems/systems-overview>`_ or 
+the beloved `Aalto Scicomp <https://scicomp.aalto.fi/triton>`_.
 
 Contents
 --------
